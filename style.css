@@ -1,10 +1,15 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/resources/fonts/OpenSans.ttf');
+}
+
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background-image: linear-gradient(to left, rgb(122,77,143), rgb(37,73,111));
+    /* background-image: linear-gradient(to left, rgb(122,77,143), rgb(37,73,111)); */
 }
 
 .container {
@@ -14,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('./blue_robot.gif');
+    background: url('/resources/img/robot.gif');
     background-size: contain;
     background-position: right center;
     background-repeat: no-repeat;
@@ -68,7 +73,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Raleway', Courier, monospace;
-    color: rgb(255, 255, 255);
+    font-family: 'OpenSans', Courier, monospace;
+    color: rgb(27, 27, 27);
 
 }
