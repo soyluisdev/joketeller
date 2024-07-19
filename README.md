@@ -12,4 +12,6 @@ Text-to-Speech: Using VoiceRSS, it converts the joke text into speech, so you ca
 Interactive: Provides an engaging way to enjoy jokes through audio, making it a fun and dynamic tool for users.
 Joketeller is a great example of combining APIs and SDKs to create a unique and enjoyable user experience.
 
+Preview: https://joketeller-beta.vercel.app/
+
 <img src="joketeller.png">
